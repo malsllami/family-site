@@ -1,17 +1,16 @@
-.visitor {
-  background: #222;
-  color: #fff;
+.visitor{
+  background:linear-gradient(120deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
 }
-.visitor .top-bar {
-  background: #111;
+.visitor .card{background:rgba(255,255,255,.12)}
+.hero h1{margin:0 0 8px}
+.status .badge{
+  display:inline-block;
+  padding:4px 10px;
+  border-radius:999px;
+  margin-bottom:10px;
 }
-.visitor .card {
-  background: #333;
-}
-.active { border-right: 6px solid green; }
-.closed { border-right: 6px solid gray; }
-.new { border-right: 6px solid pink; }
-.hint {
-  margin-top: 10px;
-  font-size: 12px;
-}
+.active .badge{background:#2ecc71}
+.closed .badge{background:#95a5a6}
+.fresh .badge{background:#ff7ab6}
+.cta{font-weight:700}

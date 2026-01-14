@@ -7,21 +7,52 @@
 <link rel="stylesheet" href="css/admin.css">
 </head>
 <body class="admin">
-<header class="top-bar">
-  <div class="nav-center">لوحة المدير</div>
+<header class="top">
+  <div class="center">لوحة المدير</div>
 </header>
 
-<main>
-  <section class="cards">
-    <div class="card">الجمعيات</div>
-    <div class="card">المشتركين</div>
-    <div class="card">التحصيل</div>
-    <div class="card">التسليم</div>
-    <div class="card">العمليات</div>
-    <div class="card">إنشاء جمعية</div>
+<main class="container">
+  <section class="grid">
+    <div class="card admin-card">
+      <div class="row">
+        <h3>جمعية جديدة</h3>
+        <span class="pill fresh">جديدة</span>
+      </div>
+      <p>إدارة الجمعية</p>
+      <div class="actions">
+        <button class="ghost">إدارة</button>
+        <button class="primary">تحصيل</button>
+        <button class="primary">تسليم</button>
+      </div>
+    </div>
+
+    <div class="card admin-card">
+      <div class="row">
+        <h3>جمعية نشطة</h3>
+        <span class="pill active">نشطة</span>
+      </div>
+      <p>إدارة الجمعية</p>
+      <div class="actions">
+        <button class="ghost">إدارة</button>
+        <button class="primary">تحصيل</button>
+        <button class="primary">تسليم</button>
+      </div>
+    </div>
+
+    <div class="card admin-card">
+      <div class="row">
+        <h3>جمعية منتهية</h3>
+        <span class="pill closed">مغلقة</span>
+      </div>
+      <p>عرض فقط</p>
+      <div class="actions">
+        <button class="ghost">عرض</button>
+      </div>
+    </div>
   </section>
 </main>
 
 <script src="js/navigation.js"></script>
+<script src="js/motion.js"></script>
 </body>
 </html>

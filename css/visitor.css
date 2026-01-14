@@ -1,0 +1,17 @@
+.visitor {
+  background: #222;
+  color: #fff;
+}
+.visitor .top-bar {
+  background: #111;
+}
+.visitor .card {
+  background: #333;
+}
+.active { border-right: 6px solid green; }
+.closed { border-right: 6px solid gray; }
+.new { border-right: 6px solid pink; }
+.hint {
+  margin-top: 10px;
+  font-size: 12px;
+}

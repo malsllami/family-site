@@ -1,10 +1,13 @@
-.admin {
-  background: #eef5f0;
+.admin{
+  background:linear-gradient(120deg,#eef7f1,#ffffff);
 }
-.admin .top-bar {
-  background: #6aa88a;
-  color: #fff;
+.admin .top{background:#6aa88a;color:#fff}
+.admin .card{background:#fff}
+.pill{
+  padding:4px 10px;
+  border-radius:999px;
+  font-size:12px;
 }
-.admin .card {
-  background: #fff;
-}
+.pill.active{background:#2ecc71;color:#fff}
+.pill.fresh{background:#ff7ab6;color:#fff}
+.pill.closed{background:#95a5a6;color:#fff}

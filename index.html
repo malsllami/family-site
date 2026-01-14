@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>جمعية عائلية</title>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/visitor.css">
+</head>
+<body class="visitor">
+<header class="top-bar">
+  <div class="nav-left">
+    <button onclick="go('visitor.html')">المشتركين</button>
+    <button onclick="go('admin.html')">المدير</button>
+  </div>
+  <div class="nav-center">جمعية عائلية</div>
+  <div class="nav-right">
+    <button onclick="go('visitor.html')">تواصل</button>
+  </div>
+</header>
+
+<main>
+  <section class="welcome">
+    <h2>نرحب بالمشتركين</h2>
+    <p>
+      مدة الجمعية 10 أشهر  
+      قيمة السهم 100 ريال  
+      الاستلام للسهم 1000 ريال  
+      أقل سهم للاشتراك 0.5
+    </p>
+  </section>
+
+  <section class="cards">
+    <div class="card active">جمعية نشطة</div>
+    <div class="card closed">جمعية مغلقة</div>
+    <div class="card new">
+      جمعية جديدة
+      <div class="hint">بادر بالتسجيل</div>
+    </div>
+  </section>
+</main>
+
+<script src="js/navigation.js"></script>
+</body>
+</html>

@@ -1,6 +1,7 @@
 function copyPin(id){
-  const i=document.getElementById(id)
-  i.select()
-  document.execCommand('copy')
-  alert('تم نسخ الرمز')
+  const input = document.getElementById(id);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  alert("تم نسخ الرمز");
 }

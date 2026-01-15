@@ -1,2 +1,24 @@
-.admin{background:#eef7f1}
-.admin header{background:#6aa88a;color:#fff}
+.admin{
+  background:#eef7f1;
+  min-height:100vh;
+}
+
+.admin header{
+  background:#6aa88a;
+  color:#fff;
+  padding:12px 20px;
+}
+
+.admin .container{
+  padding-top:14px;
+}
+
+.admin .card{
+  background:#fff;
+}
+
+.actions{
+  display:flex;
+  gap:8px;
+  margin-top:10px;
+}

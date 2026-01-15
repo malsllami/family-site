@@ -1,0 +1,10 @@
+body{margin:0;font-family:system-ui,Tahoma;direction:rtl}
+header{padding:16px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;padding:20px}
+.card{padding:16px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.15)}
+button{padding:10px 14px;border-radius:12px;border:0;cursor:pointer}
+.primary{background:#6c7cff;color:#fff}
+.ghost{background:transparent;border:1px solid #ccc}
+.danger{background:#e74c3c;color:#fff}
+table{width:100%;border-collapse:collapse}
+td,th{padding:10px;border-bottom:1px solid #ddd}
